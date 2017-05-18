@@ -1,11 +1,14 @@
 PODS:
   - Alamofire (4.4.0)
   - Spring (1.0.3)
+  - SwiftSky (1.1.0):
+    - Alamofire (~> 4.4)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4.0)
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftSky (~> 1.0)
   - SwiftyJSON (= 3.1.4)
 
 EXTERNAL SOURCES:
@@ -21,8 +24,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftSky: 2dae4f035d924e1175fe27429fdf676b9f0d7c4e
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 7e8afff6af1ba58d55a884ffff8202cdece3cb4c
+PODFILE CHECKSUM: e6ab99cecab9d5c270ad0ce8385d2a5e56965948
 
 COCOAPODS: 1.2.1

@@ -13,6 +13,7 @@
 		5EE022211ECE0DE700395251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE0221F1ECE0DE700395251 /* Main.storyboard */; };
 		5EE022231ECE0DE700395251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE022221ECE0DE700395251 /* Assets.xcassets */; };
 		5EE022261ECE0DE700395251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE022241ECE0DE700395251 /* LaunchScreen.storyboard */; };
+		5EE0222E1ECE2A5100395251 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE0222D1ECE2A5100395251 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5EE022221ECE0DE700395251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EE022251ECE0DE700395251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EE022271ECE0DE700395251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE0222D1ECE2A5100395251 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		C7107250C25A75F65AA75602 /* Pods_ECWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72976B69D6132AA8942D07D /* Pods-ECWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECWeather/Pods-ECWeather.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 			children = (
 				5EE0221B1ECE0DE700395251 /* AppDelegate.swift */,
 				5EE0221D1ECE0DE700395251 /* ViewController.swift */,
+				5EE0222D1ECE2A5100395251 /* CustomCell.swift */,
 				5EE0221F1ECE0DE700395251 /* Main.storyboard */,
 				5EE022221ECE0DE700395251 /* Assets.xcassets */,
 				5EE022241ECE0DE700395251 /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EE0221E1ECE0DE700395251 /* ViewController.swift in Sources */,
+				5EE0222E1ECE2A5100395251 /* CustomCell.swift in Sources */,
 				5EE0221C1ECE0DE700395251 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +380,7 @@
 				5EE0222C1ECE0DE700395251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
