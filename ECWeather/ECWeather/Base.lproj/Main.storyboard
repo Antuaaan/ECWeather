@@ -32,39 +32,30 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hO-8L-P72">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hO-8L-P72">
                                                     <rect key="frame" x="8" y="8" width="359" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzw-tc-5Nl">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzw-tc-5Nl">
                                                     <rect key="frame" x="0.0" y="37" width="375" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.3252041834622893" green="1" blue="0.90012880444916477" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temparature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcX-EV-j4O">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Temparature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcX-EV-j4O">
                                                     <rect key="frame" x="0.0" y="66" width="375" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="0.29277993598820962" blue="0.40268341732082513" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstItem="XcX-EV-j4O" firstAttribute="top" secondItem="yzw-tc-5Nl" secondAttribute="bottom" constant="8" id="0CL-Co-i04"/>
-                                                <constraint firstAttribute="trailing" secondItem="5hO-8L-P72" secondAttribute="trailing" constant="8" id="1u0-zm-0Pv"/>
-                                                <constraint firstAttribute="bottom" secondItem="XcX-EV-j4O" secondAttribute="bottom" constant="13" id="3dW-Qz-Ght"/>
-                                                <constraint firstItem="yzw-tc-5Nl" firstAttribute="top" secondItem="5hO-8L-P72" secondAttribute="bottom" constant="8" id="KGR-rG-JWm"/>
-                                                <constraint firstAttribute="trailing" secondItem="XcX-EV-j4O" secondAttribute="trailing" id="QDn-ZW-QbM"/>
-                                                <constraint firstItem="5hO-8L-P72" firstAttribute="top" secondItem="VqT-3r-QZq" secondAttribute="top" constant="8" id="Rr7-eX-o80"/>
-                                                <constraint firstItem="yzw-tc-5Nl" firstAttribute="leading" secondItem="VqT-3r-QZq" secondAttribute="leading" id="XmJ-YH-XAA"/>
-                                                <constraint firstAttribute="trailing" secondItem="yzw-tc-5Nl" secondAttribute="trailing" id="dbE-wb-iRq"/>
-                                                <constraint firstItem="5hO-8L-P72" firstAttribute="leading" secondItem="VqT-3r-QZq" secondAttribute="leading" constant="8" id="dtl-wB-W4c"/>
-                                                <constraint firstItem="XcX-EV-j4O" firstAttribute="leading" secondItem="VqT-3r-QZq" secondAttribute="leading" id="sNk-xy-gKn"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="date" destination="5hO-8L-P72" id="Ali-tA-3b1"/>
